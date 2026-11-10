@@ -10,6 +10,14 @@
 
 int compararEstudiantes(const void *estudianteA, const void *estudianteB) {
     // Aquí va su código.
+    const Estudiante *eA = (const Estudiante *)estudianteA;
+    const Estudiante *eB = (const Estudiante *)estudianteB;
+    
+    if (eA->matricula < eB->matricula)
+        return -1;
+    if (eA->matricula > eB->matricula)
+        return 1;
+    return 0;
 }
 
 void actualizarPromedio(Estudiante *estudiante, float nuevoPromedio) {

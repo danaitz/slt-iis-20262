@@ -2,7 +2,7 @@
  * Archivo: conjunto.c
  * Implementación de un conjunto genérico con almacenamiento dinámico.
  * Completen las funciones pendientes según conjunto.h.
- * Autoría: Completa tu nombre.
+ * Autoría: Hernaández Martínez Dana Itzel.
  */
 
 #include <limits.h>
